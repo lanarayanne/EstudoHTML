@@ -1,0 +1,58 @@
+
+html{
+    font-size: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 1.6rem;
+    font-family: "Work Sans", sans-serif;
+    font-weight: normal;
+    
+}
+
+:root{
+    --verde_claro: #74C69D;
+    --preto: #212529;
+    --branco: #ffffff;
+    --azul: #5569AF;
+    --amarelo: #FAAD3A;
+    --cinza_claro: #EEEEEE;
+    --verde_escuro: #00420C;
+    --fonte_work: "Crimson Text", serif;
+}
+
+header {
+    background-color: var(--verde_escuro);
+    color: var(--branco);
+}
+
+nav{
+    display: flex;
+    min-height: 5rem;
+    align-items: center;
+}
+
+h1{
+    font-size: 2.5rem;
+
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    font-size: 1rem;
+}
+
+nav ul li{
+    /* margin: 0rem 1rem; */
+
+}
+
+#logo{
+    max-height: 3rem;
+    margin: 0rem 1rem;
+
+}

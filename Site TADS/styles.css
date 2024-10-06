@@ -212,8 +212,8 @@ article ul {
 }
 
 #second_line p {
-    color: black;
-    font-weight: bold;
+    /* color: black;
+    font-weight: bold; */
     margin-top: 1.5rem;
     margin-bottom: 1rem;
     margin-left: 4rem;
@@ -233,8 +233,8 @@ article ul {
     color: white;
 }
 
-.nao_negrito {
-    font-weight: normal !important;
+.negrito {
+    font-weight: bold;
 }
 
 #seja_um_mentor {
