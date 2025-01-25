@@ -1,0 +1,35 @@
+main,
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+main div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    gap: 4rem;
+    justify-content: center;
+}
+
+.cards {
+    width: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+@media (max-width: 700px) {
+    main div {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 375px) {
+    h2 {
+        font-size: 2.5rem;
+    }
+}

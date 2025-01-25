@@ -1,57 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Planos</title>
+
+    <link rel="stylesheet" type="text/css" href="assets\css\styles.css" />
+    <link rel="stylesheet" type="text/css" href="assets\css\planos.css" />
+    <link rel="shortcut icon" href="assets\images\logo\LogoTads.svg" type="image/x-icon" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+        rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
 </head>
+
 <body>
-    
-    Grupo de Estudo/TADS
 
-    Home
-    Disciplinas
-    Planos
-    Contato
-    Planos
+    <header>
+        <img src="assets\images\logo\LogoTads.svg" alt="Logo TADS" id="logo">
+        <h1 id="main_h1">Grupo de Estudo/TADS</h1>
+        <h1 id="short_h1">GE/TADS</h1>
+        <span class="material-symbols-outlined" id="menu_icon">
+            menu
+        </span>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="disciplinas.html">Disciplinas</a></li>
+            <li><a href="planos.html">Planos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </header>
 
-    Mas o acesso a escola não é gratuíto? Precisa pagar?
+    <main>
 
-    Qualquer estudante do curso pode participar sem pagar, mas contrinuimos com um valor simbólico para café e energia! Ninguém é de ferro!!!!
+        <h3>Planos</h3>
 
-    Básico
-    R$0
-    /free
-    Traga seu café e sua vontade de estudar.
-    Participação dos grupos
-    Tira dúvidas
-    Ajuda em atividades
-    Não fazemos suas provas
-    Nem seus trabalhos
-    Mais detalhes
-    
-    Plus
-    R$5
-    /mês
-    Café gostoso e sempre quente, mas a vontade de estudar continua sendo sua.
-    Tudo do plano free
-    Acesso a nossa máquina de café
-    Não fazemos suas provas
-    Nem seus trabalhos
-    Mais detalhes
+        <h2>Mas o acesso a escola não é gratuíto? Precisa pagar?</h2>
 
-    Pro
-    R$10
-    /mês
-    Tem dúvidas muito específicas? Então marque um horário individual!
-    Tudo do plano plus
-    Ajuda individual
-    Não fazemos suas provas
-    Nem seus trabalhos
-    Você achou mesmo que teria um plano onde fariámos suas provas e trabalhos?
-    Mais detalhes
-    
-    ©Grupo de Estudo, 2024. All rights reserved.
+        <p>Qualquer estudante do curso pode participar sem pagar, mas contrinuimos com um valor simbólico para café e
+            energia! Ninguém é de ferro!!!!</p>
+
+
+        <section class="text">
+            <article class="cards">
+                <h4>Básico</h4>
+                <div class="valor">
+                    <h2>R$0</h2>
+                    <p>/free</p>
+                </div>
+                <p>Traga seu café e sua vontade de estudar.</p>
+                <ul>
+                    <li><span class="material-symbols-outlined">
+                            check
+                        </span>Participação dos grupos</li>
+                    <li><span class="material-symbols-outlined">
+                            check
+                        </span>Tira dúvidas</li>
+                    <li><span class="material-symbols-outlined">
+                            check
+                        </span>Ajuda em atividades</li>
+                    <li><span class="material-symbols-outlined">
+                            check
+                        </span>Não fazemos suas provas</li>
+                    <li><span class="material-symbols-outlined">
+                            check
+                        </span>Nem seus trabalhos</li>
+                </ul>
+
+                <a href=""><button class="button">Mais detalhes</button></a>
+            </article>
+
+            <article class="cards">
+                <h4>Plus</h4>
+                <div class="valor">
+                    <h2>R$5</h2>
+                    <p>/mês</p>
+                </div>
+                <p>
+                    Café gostoso e sempre quente, mas a vontade de estudar continua sendo sua.
+                </p>
+                <ul>
+                    <li><span class="material-symbols-outlined">
+                            check
+                        </span>Tudo do plano free</li>
+                    <li><span class="material-symbols-outlined">
+                            check
+                        </span>Acesso a nossa máquina de café</li>
+                    <li><span class="material-symbols-outlined">
+                            check
+                        </span>Não fazemos suas provas</li>
+                    <li><span class="material-symbols-outlined">
+                            check
+                        </span>Nem seus trabalhos</li>
+                </ul>
+                <a href=""><button class="button">Mais detalhes</button></a>
+            </article>
+            <article class="cards">
+                <h4>Pro</h4>
+                <div class="valor">
+                    <h2>R$10</h2>
+                    <p>/mês</p>
+                </div>
+                <p>Tem dúvidas muito específicas? Então marque um horário individual!</p>
+
+                <ul>
+                    <li><span class="material-symbols-outlined">
+                            check
+                        </span>Tudo do plano plus</li>
+                    <li><span class="material-symbols-outlined">
+                            check
+                        </span>Ajuda individual</li>
+                    <li><span class="material-symbols-outlined">
+                            check
+                        </span>Não fazemos suas provas</li>
+                    <li><span class="material-symbols-outlined">
+                            check
+                        </span>Nem seus trabalhos
+                    <li><span class="material-symbols-outlined">
+                            check
+                        </span>Você achou mesmo que teria um plano onde fariámos suas provas e trabalhos?</li>
+
+                </ul>
+                <a href=""><button class="button">Mais detalhes</button></a>
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="socials">
+            <img src="assets\images\socials\facebook.svg" alt="" />
+            <img src="assets\images\socials\instagram.svg" alt="" />
+            <img src="assets\images\socials\twitter.svg" alt="" />
+            <img src="assets\images\socials\pinterest.svg" alt="" />
+            <img src="assets\images\socials\tiktok.svg" alt="" />
+            <img src="assets\images\socials\whatsapp.svg" alt="" />
+            <img src="assets\images\socials\youtube.svg" alt="" />
+        </div>
+
+        <p>©Grupo de Estudo, 2024. All rights reserved.</p>
+    </footer>
 
 </body>
+
 </html>
